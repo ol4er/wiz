@@ -1,0 +1,445 @@
+/* Background patterns mostly from subtlepatterns.com
+Images are mine or sourced from Flickr. 
+8mm Camera background image courtesy of Kade Cumming Photography 2015 */
+html {
+    background: #ef8;
+    background-image: url(../images/herro.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+background-size: 1920px;}
+p, h3, h1, li {font-family: "Open sans", serif;}
+.outerrim {
+    max-width: 960px;
+    margin: 0 auto;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+.container {
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: -2px -2px 80px -15px #000; 
+    width:100%;
+    border-radius: 12px;
+}
+
+.header {
+  min-width: 960px;
+}
+.wcs {overflow: hidden; z-index: 65;}
+.desc {position: absolute; float: left; z-index: -50; visibility: hidden;}
+.videoprofile {
+    border-top-left-radius: 12px;
+    width: 480px;
+    height: 320px;
+    float: left;
+    top: 0%;
+    left: 0%;
+    background-color: #000;
+    position: relative;
+    
+}
+.imgprofile {
+    border-top-left-radius: 12px;
+    width: 480px;
+    height: 320px;
+    float: left;
+    top: 0%;
+    left: 0%;
+    background-color: #000;
+    position: relative;
+}
+.videoprofile video {border-top-left-radius: 12px;
+}
+.imgprofile img {border-top-left-radius: 12px;
+}
+
+.title {
+    border-top-right-radius: 12px;
+    width:480px;
+    margin-left: 480px;
+    text-align: center;
+    float: left;
+    position: absolute;
+    background: url(..//images//SKY.gif);
+    background-size: cover;
+    background-color: #10D5FF;
+}
+.title h1 { text-shadow: 2px 2px #333; margin-top:70px; padding-left: 20px; font-family: "Fascinate Inline", cursive; font-size:4.4em;color: #fff; }
+.wiazrd {font-size:1.3em;}
+
+/*begin link bar styles*/
+.navbar {
+   min-width: 100%;
+    background-color: #333;
+    background-image: url(../images/stardust.png);
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 5;
+    margin-top: -4px;
+    /*Ug yes a negative margin. Couldn't find where the gap was coming from. */
+    
+    
+}
+.navbar ul {
+    
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        width:100%;
+    list-style-type: none;
+            margin:0;
+            padding:0;
+    
+}
+.navbar li a { 
+    display: block;
+                width: 124px;
+    height: auto;
+                padding:18px;
+             
+     
+    color: whitesmoke;
+text-transform: uppercase;
+text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    #border-top: 2px solid #000;
+  #border-bottom: 2px solid #000;
+}
+
+.navbar li {float: left;
+flex: auto;}
+.navbar li a:hover {color: hotpink;}
+/*end link bar styles*/
+
+
+.guts {background-color: #aaa;
+     min-width: 960px;
+    overflow: hidden;
+    float: left;
+    max-height: 1180px;
+    position: relative;
+        
+
+   
+    
+}
+
+.sidelist {
+    background-color: lightskyblue;
+    background-image: url(../images/linedpaper.png);
+    padding: 8px;
+    float: left;
+    clear: both;
+    overflow: auto;
+    position: relative;
+    bottom: 10px;
+    min-height: 1180px;
+
+}
+.sidelist h3 {text-align: center;}
+
+.sidetitle {    
+font-family: 'Open sans';color: #222;font-size: 1.3em;}
+.sidelist ul {
+    list-style-type: none;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    
+                 }
+.sidelist p {text-align: left;}
+.sidelist li img {float: left;
+margin: 0 10px 0 0;}
+.sidelist li {
+  overflow: auto;
+border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 0px 8px 0px 8px;
+    }
+.sidelist li:last-child {border-top: none;}
+
+.sidelist li a {display:block; padding: 10px;    text-decoration: none;
+color: black;}
+.sidelist img {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+.twitter {
+    position: relative;
+    float:left;
+    width: 300px;
+    margin-top: 640px;
+    margin-left: -316px;
+    padding:8px;
+    overflow: auto;
+z-index: 2;
+ 
+}
+
+
+.history {
+    margin-left: 316px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    
+    
+    background-color: #d75c54;
+    background-image: url(../images/kindajean.png);
+    text-align: center;
+    padding:8px;
+    clear: right;
+    overflow: auto;
+    #border-left: 2px solid #000;
+    bottom: 660px;
+    min-height: 1180px;
+}
+.history ul {
+  list-style-type: none;
+    position: relative;
+    z-index: 2;
+    top: 5px;
+}
+.history li img {
+   
+  float: left;
+  margin: 15px;
+  border: 2px solid #eee;
+    border-radius: 8px;
+-webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.9);
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.9);
+  -webkit-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  -o-transition: box-shadow 0.2s ease;
+  -ms-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+}
+.history p {font-family: 'Reenie Beanie', cursive;color: #eeefff;font-size: 2.4em; font-weight: bold; position: relative; top: 2px; z-index: 3; text-shadow: 0px 0px  10px rgba(0,0,0,0.2);}
+.history a {text-decoration: underline; color: aliceblue;}
+.history a:hover {color: #639BFF;}
+.history li img:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.0);
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.0);
+}
+.history h1 {font-family: 'Reenie Beanie', cursive;color: #fff;font-size: 1.6em;position: relative; top: 5px; z-index: 3;}
+
+.footer {
+    
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    position: relative;
+    min-width: 960px;
+    background-color: #333;
+    border-radius: 0px 0px 12px 12px;
+    padding: 8px;
+    clear: both;
+   
+    color: #fff;
+    background-image: url(../images/stardust.png);
+    text-align: center;
+    z-index: 6;
+    
+}
+.history h3 {font-family: 'Open-Sans', sans-serif;color: #111;font-size: 1.4em;position: relative; top: 5px; z-index: 3;}
+.history iframe {position: relative; z-index: 3;  box-shadow: -2px 2px 10px #000;}
+
+#blood {float: left; position: relative; z-index: 2;bottom: 10px; left: 2px; 
+}
+.hideblood {visibility: hidden;}
+.gore {	cursor: pointer;}
+#tunes {cursor: pointer;}
+.footer a {text-decoration: none;
+    color: #f06;
+    font-weight: 900;
+    padding: 3px;
+
+}
+.footer a:hover {text-decoration: underline;
+    }
+.bottomlink a {font-size: 0.8em;}
+
+.modalDialog {
+    text-align: center;
+	position: fixed;
+	font-family: "Open sans", sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	opacity:0;
+	-webkit-transition: opacity 200ms ease-in;
+	-moz-transition: opacity 200ms ease-in;
+	transition: opacity 200ms ease-in;
+    pointer-events: none;
+
+}
+.modalDialog iframe {padding: 2px;border-radius: 6px; background: #001;box-shadow: 0px 0px 20px #555;}
+.modalDialog h2 {font-size: 2em; color:#222;font-family: "open sans", serif; font-weight: 700; text-transform:uppercase;}
+.modalDialog p {color: #222; font-size: 1.1em;}
+.modalDialog a {text-decoration: none; font-weight: bold; color: #f06;}
+.modalDialog a:hover {text-decoration: underline;}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	
+    width: 740px;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+    background-image: url(../images/small_steps.png);
+	max-height: 576px;
+    z-index: 55;
+
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	position: fixed;
+	
+	text-align: center;
+	
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+  
+    z-index: -55;
+    opacity:0;
+    cursor:default;
+}
+.modalBG { width: 740px;
+	position:absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	margin: 10% auto;
+    padding: 5px 20px 10px 20px;
+    margin: 10px;
+	border-radius: 10px;
+	background: #fff;
+    background-image: url(../images/small_steps.png);
+	min-height: 576px;
+    z-index: -1;
+    opacity: 0;
+    }
+
+.close:hover { background: #00d9ff; }
+
+#crickets {cursor: pointer;}
+
+.closebutt {
+	background: #00d9ff;
+	color: #FFFFFF;
+    
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+    z-index: 55;
+    -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+    
+
+}
+
+
+.closebutt:hover { background: #f06; color:transparent;}
+.x {color: transparent;}
+#crickets {cursor: pointer;}
+
+/* films.html */
+
+.film {
+    position: relative;
+    
+    
+    background-color: #444;
+    background-image: url(../images/kindajeanblue.png);
+    text-align: center;
+    padding:8px;
+    clear: right;
+    overflow: auto;
+    min-height: 1180px;
+
+}
+.film ul {
+  list-style-type: none;
+    position: relative;
+    z-index: 2;
+    top: 5px;
+  
+    
+}
+
+.film li img {
+   position: relative;
+   float: left;
+  margin: 19px;
+  border: 2px solid #eee;
+    border-radius: 8px;
+-webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.9);
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.9);
+  -webkit-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  -o-transition: box-shadow 0.2s ease;
+  -ms-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+    
+}
+
+.film p {position: relative; top: 25px; font-family: 'Reenie Beanie', sans-serif; color: #222; font-size: 1.5em; text-align: center; font-style: italic;}
+.film li img:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.0);
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.0);
+}
+.film h1 {font-family: 'Reenie Beanie', cursive;color: #fff;font-size: 2.5em;position: relative; top: 5px; z-index: 3; color: #fff; text-shadow: 0 0 10px rbga(0,0,0,0.2);}
+
+#games { background-image: url(../images/kindajeangreen.png);
+    min-height: 820px;
+}
+#contact {min-height: 820px; }
+#contact p {z-index: 3; color: #fff; text-decoration: none; font-style: normal; font-family: 'open-sans', sans-serif; font-size: 1.8em;}
+#contact a {color: #00c0ff;text-decoration: none; }
+#contact a:hover { text-decoration: underline;}
+#contact h1 {font-style: normal; font-family: 'open-sans', sans-serif;}
+
+.skylinegames {float:left; position: absolute; z-index: 1;top:355px; max-width: 960px; overflow: hidden;}
+/* end films.html */
+
+.blackstar {color: black; position: relative; top: 10px; text-align: center;}
+.skyline {float:left; position: absolute; z-index: 1;top:700px; max-width: 960px; overflow: hidden;}
+.skyline2 {float:left; position: absolute; z-index: 1;top:700px; max-width: 960px; overflow: hidden;}
+.welcome {font-size: 1.3em;}
